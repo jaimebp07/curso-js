@@ -1,14 +1,14 @@
-array1 = ["Maria", "Jose", "Roberta"]
-array2 = ["Pedro", "Marcelo", array1, "Josefina"]
+array1  =  [ "María" ,  "José" ,  "Roberta" ]
+array2  =  [ "Pedro" ,  "Marcelo" ,  array1 ,  "Josefina" ]
 
 forRancio:
-for (let array in array2){
-    if(array == 2){
-        for(let array of array1){
-            document.write(array + "<br>");
-            break forRancio;
+para  ( dejar  matriz  en  matriz2 ) {
+    si ( matriz  ==  2 ) {
+        para ( deje  matriz  de  matriz1 ) {
+            documento . escribir ( matriz  +  "<br>" ) ;
+            romper forRancio ;
         }
-    } else {
-        document.write(array2[array] + "<br>");
+    }  más  {
+        documento . escribir ( matriz2 [ matriz ]  +  "<br>" ) ;
     }
 }
