@@ -1,0 +1,15 @@
+.contenedor2 {
+    padding: 30px;
+    background: red;
+}
+
+.contenedor4 {
+    padding: 30px;
+    background:#2ECC71;
+}
+.input-prueba{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 6px;
+    color: #444;
+}

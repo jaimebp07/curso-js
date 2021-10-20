@@ -1,0 +1,7 @@
+body > div > p {
+    background-color: #000;
+}
+
+p {
+    color: #ccc;
+}
